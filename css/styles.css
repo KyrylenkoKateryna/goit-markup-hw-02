@@ -1,0 +1,166 @@
+:root{
+--primary-text-color:#757575;
+--title-text-color:#212121;
+--accent-color:#2196F3;
+--accent-color-second:#fff;
+}
+
+body{
+    font-family:Roboto,sans-serif;
+    font-style:normal;
+    font-size:14px;
+    color:var(--primary-text-color);
+    text-decoration:none;
+    cursor: pointer;
+  }
+/* Класы чтобы убрать точки списка */
+ul,li{
+  list-style-type:none;
+  
+  }
+
+  .logo {
+    font-family: Raleway,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color:var(--title-text-color) ;
+  } 
+
+.logo:hover{
+    color:var(--accent-color);
+    
+}
+
+  .letter{
+      color:var(--accent-color);
+  }
+
+  .nav-list{
+  color: var(--title-text-color);
+  }
+
+  .nav-list .link:hover,
+  .nav-list .link:focus
+  {  
+    color: var(--title-text-color);
+    color:var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+  }
+
+  /* активная ссылка при переходе на другую страницу*/
+
+  
+  /* интерактивные ссылки емейл и номер телефона */
+  a {
+    font-size: 14px;
+    line-height:1.1;
+    font-style: normal;
+    text-decoration: none;
+    color:var(--primary-text-color)
+  }
+.link-current{
+  color: var(--title-text-color);
+}
+.comunication:hover{
+color:var(--accent-color)
+}
+
+  /* section hero */
+  .hero{
+    background-color:#2F303A;
+    text-align:center;
+  }
+  .main-header{
+  color:var(--accent-color-second);
+  font-weight: 900;
+  font-size: 44px;
+  }
+
+  /* кнопка */
+
+  button{
+
+  background-color:var(--accent-color);
+  color:var(--accent-color-second);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.8;
+  }
+/* cекция 2 */
+
+/* спрятаный заголовк */
+
+#hidden{
+  display: block;
+}
+  .advantage{
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .tools{
+  font-size: 16px;
+  line-height:1.1;
+  color: var(--title-text-color);
+  }
+
+  .description {
+color:var(--title-text-color);  
+font-weight: bold;
+font-size: 36px;
+line-height: 1.1;
+  }
+  
+ .team-dream{
+background-color:#F5F4FA;
+ } 
+
+.surname {
+  font-size: 16px;
+  line-height:1.1;
+  color: var(--title-text-color);
+}
+
+.adress-details{
+  background-color:#2F303A;
+  
+}
+.town-address{
+  font-size: 14px;
+  line-height: 1.7;
+  color:var(--accent-color-second);
+  font-style: normal;
+  
+}
+.color{
+  color:var(--accent-color-second)
+}
+
+/* Страница портфолио */
+
+/*  cекция кнопок для навигации  */
+.switch{
+font-size: 16px;
+line-height: 26px;
+color:var(--title-text-color);
+background-color:#F5F4FA
+}
+
+.nav-list .switch .link:hover
+.nav-list .switch .link:focus
+{
+color:var(--accent-color)
+color: var(--accent-color-second);
+}
+
+
+
+/* секция карточек */
+
+.header-size{
+  font-size: 18px;
+  line-height:2;
+  color: var(--title-text-color);
+}
