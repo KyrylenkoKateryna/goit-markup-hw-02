@@ -163,9 +163,13 @@ background-color:#F5F4FA;
   font-size: 14px;
   line-height: 1.7;
   color:var(--accent-color-second);
-  font-style: normal;
-  
+  font-style: normal; 
 }
+
+.contacts {
+  font-style: normal;
+}
+
 .color{
   color:var(--accent-color-second)
 }
