@@ -32,8 +32,7 @@ ul,li{
 .logo:hover,
 .logo:focus
 {
-    color:var(--accent-color);
-    
+    color:var(--accent-color);  
 }
 
   .letter{
