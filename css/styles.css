@@ -113,8 +113,7 @@ button{
   line-height: 1.8;
 }
 
-.btn-links:hover,
-.btn-links:focus
+.btn-links:hover
 {
 color: var(--accent-color-second);
 background: var(--accent-color);
