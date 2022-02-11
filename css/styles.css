@@ -5,6 +5,7 @@
 --accent-color-second:#fff;
 --accent-bgc-hero:#2F303A;
 --accent-bgc-folio:#F5F4FA;
+
 }
 
 body{
@@ -78,12 +79,13 @@ ul,li{
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.02em;
+     font-style: normal;
   }
 
 .comunication:hover,
 .comunication:focus
 {
-color:var(--accent-color)
+color:var(--accent-color);
 }
 
   /* section hero */
@@ -103,21 +105,20 @@ color:var(--accent-color)
 
   /* кнопка */
 
-.btn-link {
-  background-color:var(--accent-color);
-  color: var(--accent-color-second);
+button{
+  color:var(--title-text-color);
+  background: var(--accent-bgc-folio);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.8;
 }
- .hero.btn-link :hover,
- .hero.btn-link :focus{
- 
-  color: var(--accent-color);
- }
 
- 
-
+.btn-links:hover,
+.btn-links:focus
+{
+color: var(--accent-color-second);
+background: var(--accent-color);
+}
 
 
 /* cекция 2 */
@@ -146,7 +147,7 @@ line-height: 1.1;
   }
   
  .team-dream{
-background-color:#F5F4FA;
+background-color:var(--accent-bgc-folio);
  } 
 
 .surname {
@@ -156,7 +157,7 @@ background-color:#F5F4FA;
 }
 
 .adress-details{
-  background-color:#2F303A;
+  background-color:var(--accent-bgc-hero);
   
 }
 .town-address{
@@ -166,9 +167,7 @@ background-color:#F5F4FA;
   font-style: normal; 
 }
 
-.contacts {
-  font-style: normal;
-}
+
 
 .color{
   color:var(--accent-color-second)
@@ -191,8 +190,6 @@ background-color:#F5F4FA;
 color:var(--accent-color-second);
 background-color:var(--accent-color);
 }
-
-
 
 /* секция карточек */
 
